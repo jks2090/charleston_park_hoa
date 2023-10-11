@@ -1,0 +1,53 @@
+.app-component-body{
+    width: 100%;
+}
+.app-navbar-header{
+   
+}
+.app-navbar-list{
+    background-color: lightgrey;
+    min-width: 100%;
+    padding: 10px;
+    display:flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+.app-navbar-padder{
+    width: 50px;
+}
+.app-navbar-home-page{
+    margin-right: 30px; 
+    cursor:pointer;
+    &:hover{
+        background-color: darken(lightgrey, 15%);
+        font-weight: 800;
+    }
+} 
+.app-navbar-forms{
+    margin-right: 30px;
+    cursor:pointer;
+    &:hover{
+        background-color: darken(lightgrey, 15%);
+        font-weight: 800;
+    }
+}
+.app-navbar-contact{
+    margin-right: 30px;
+    cursor:pointer;
+    &:hover{
+        background-color: darken(lightgrey, 15%);
+        font-weight: 800;
+    }
+}
+.app-navbar-projects{
+    margin-right: 30px;
+    cursor:pointer;
+    &:hover{
+        background-color: darken(lightgrey, 15%);
+        font-weight: 800;
+    }
+}
+.router-body{
+
+}
+   
