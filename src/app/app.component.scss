@@ -1,16 +1,21 @@
 .app-component-body{
-    width: 100%;
+    min-width: 100%;
+    background-color: lightgrey;
+    min-height: 100vh;
+   
+
 }
 .app-navbar-header{
-   
+    height:50px;
 }
 .app-navbar-list{
-    background-color: lightgrey;
+    background-color: darken(lightgrey, 15%);
     min-width: 100%;
     padding: 10px;
     display:flex;
     flex-direction: row;
     list-style-type: none;
+    height: 100%;
 }
 .app-navbar-padder{
     width: 50px;
@@ -47,7 +52,15 @@
         font-weight: 800;
     }
 }
+.home-photo{
+    z-index: 0;
+    position: absolute;
+ 
+}
 .router-body{
-
+    padding: 20px;
+    z-index: 10;
+    position: absolute;
+  
 }
    
